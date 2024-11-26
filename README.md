@@ -2,6 +2,8 @@
 
 A web application for selecting industrial pumps based on specified parameters. Built with React, TypeScript, and Vite.
 
+![Pump Selection Demo](https://your-image-hosting-url.com/pump-selection-demo.gif)
+
 ## Features
 
 - Interactive pump selection based on application areas

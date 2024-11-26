@@ -56,9 +56,11 @@ const Home = () => {
 		if (activeSeries.length > 0) {
 			searchParams.set('series', activeSeries.join(','))
 			setSearchParams(searchParams, { replace: true })
+			setIsOpenSelect(false)
 		} else {
 			searchParams.delete('series')
 			setSearchParams(searchParams, { replace: true })
+			setIsOpenSelect(false)
 		}
 	}, [activeSeries])
 
@@ -137,7 +139,7 @@ const Home = () => {
 							</div>
 							<div className='input-box flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-0'>
 								<span className='text-[#555] text-sm after:content-["*"] after:ml-0.5 after:text-red'>
-									апор
+									Напор
 								</span>
 								<div className='input flex items-center w-full sm:w-[55%] gap-2'>
 									<MyInput
