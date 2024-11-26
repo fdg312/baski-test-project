@@ -17,6 +17,7 @@ interface IInputData {
 }
 
 const Home = () => {
+	console.log('Home')
 	const [searchParams, setSearchParams] = useSearchParams()
 	const navigate = useNavigate()
 	const [activeCategory, setActiveCategory] = useState(0)
