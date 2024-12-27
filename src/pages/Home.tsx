@@ -120,7 +120,7 @@ const Home = () => {
 				<div className='wrapper flex flex-col justify-between h-full'>
 					{!activeSeries.length ? (
 						<h3 className='text-[#555] text-left'>
-							Выберите AAA или несколько серий насосов
+							Выберите EEE или несколько серий насосов
 						</h3>
 					) : (
 						<div className='inputs flex flex-col gap-4'>
